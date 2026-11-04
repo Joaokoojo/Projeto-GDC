@@ -1,0 +1,1 @@
+global.potuacao = 0
