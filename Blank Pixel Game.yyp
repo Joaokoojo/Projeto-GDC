@@ -37,6 +37,7 @@
     {"id":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
+    {"id":{"name":"Spr_axe","path":"sprites/Spr_axe/Spr_axe.yy",},},
     {"id":{"name":"Spr_background","path":"sprites/Spr_background/Spr_background.yy",},},
     {"id":{"name":"Spr_button","path":"sprites/Spr_button/Spr_button.yy",},},
     {"id":{"name":"Spr_button2","path":"sprites/Spr_button2/Spr_button2.yy",},},

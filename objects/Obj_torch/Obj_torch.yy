@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite14",
-    "path":"sprites/Sprite14/Sprite14.yy",
+    "name":"Spr_axe",
+    "path":"sprites/Spr_axe/Spr_axe.yy",
   },
   "spriteMaskId":null,
   "visible":true,
