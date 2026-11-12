@@ -12,3 +12,5 @@ image_yscale = 0.5;
 
 grav = 0.35;
 spin_speed = 15; 
+
+alarm[0] = room_speed * 5;

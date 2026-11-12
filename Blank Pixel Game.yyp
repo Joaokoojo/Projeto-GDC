@@ -36,6 +36,10 @@
     {"id":{"name":"Obj_torch","path":"objects/Obj_torch/Obj_torch.yy",},},
     {"id":{"name":"rm_death","path":"rooms/rm_death/rm_death.yy",},},
     {"id":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
+    {"id":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},},
+    {"id":{"name":"rm_level3","path":"rooms/rm_level3/rm_level3.yy",},},
+    {"id":{"name":"rm_level4","path":"rooms/rm_level4/rm_level4.yy",},},
+    {"id":{"name":"rm_level5","path":"rooms/rm_level5/rm_level5.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"id":{"name":"Spr_axe","path":"sprites/Spr_axe/Spr_axe.yy",},},
@@ -57,8 +61,12 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
+    {"roomId":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},},
     {"roomId":{"name":"rm_death","path":"rooms/rm_death/rm_death.yy",},},
     {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
+    {"roomId":{"name":"rm_level3","path":"rooms/rm_level3/rm_level3.yy",},},
+    {"roomId":{"name":"rm_level4","path":"rooms/rm_level4/rm_level4.yy",},},
+    {"roomId":{"name":"rm_level5","path":"rooms/rm_level5/rm_level5.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

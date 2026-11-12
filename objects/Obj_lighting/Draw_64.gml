@@ -42,3 +42,16 @@ gpu_set_blendmode(bm_normal);
 surface_reset_target();
 
 draw_surface(light_surface, 0, 0);
+
+//INDICADOR NIVEL
+draw_set_colour(c_white);
+if (room == rm_level1)
+    draw_text(20, 20, "Level 1")
+else if (room == rm_level2)
+    draw_text(20, 20, "Level 2")
+if (room == rm_level3)
+    draw_text(20, 20, "Level 3")
+else if (room == rm_level4)
+    draw_text(20, 20, "Level 4")
+else if (room == rm_level5)
+    draw_text(20, 20, "Level 5!")
