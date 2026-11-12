@@ -43,16 +43,16 @@ if (_is_grounded) {
 
 move_and_collide(xspeed, yspeed, [Obj_solid]);
 
-if (torch_timer > 0) {
-    torch_timer--;
+if (axe_timer > 0) {
+    axe_timer--;
 }
 
-if (keyboard_check_pressed(ord("E")) && torch_timer <= 0) {
-    var _torch = instance_create_layer(x, y - 8, "Instances", Obj_torch);
+if (keyboard_check_pressed(ord("E")) && axe_timer <= 0) {
+    var _axe = instance_create_layer(x, y - 8, "Instances", Obj_axe);
 
-    _torch.direction_x = image_xscale;
-    _torch.direction_y = -7;           
-    _torch.is_thrown = true;
+    _axe.direction_x = image_xscale;
+    _axe.direction_y = -7;           
+    _axe.is_thrown = true;
 	
-    torch_timer = torch_cooldown;
+    axe_timer = axe_cooldown;
 }

@@ -17,20 +17,24 @@ surface_set_target(light_surface);
 
 draw_clear_alpha(c_black, 1);
 
-// Remove darkness around every torch
 gpu_set_blendmode_ext(bm_zero, bm_inv_src_alpha);
 
 draw_set_alpha(1);
 draw_set_color(c_white);
 
-// Esse with roda esse codigo para cada instancia de torcha, e as variaveis aqui dentro são da instancia torcha
-with (Obj_torch) {
-    var light_x = (x - camera_x) * gui_width / camera_width;
-    var light_y = (y - camera_y) * gui_height / camera_height;
+// Arrumei aqui pra varios objetos poderem emitir luz
+// só colocar na lista
+var lista_brilha = [Obj_torch, Obj_axe];
 
-    var scaled_radius = light_radius * gui_width / camera_width;
+for (var i = 0; i < array_length(lista_brilha); i++) {
+    with (lista_brilha[i]) {
+        var light_x = (x - camera_x) * gui_width / camera_width;
+        var light_y = (y - camera_y) * gui_height / camera_height;
 
-    draw_circle(light_x, light_y, scaled_radius, false);
+        var scaled_radius = light_radius * gui_width / camera_width;
+
+        draw_circle(light_x, light_y, scaled_radius, false);
+    }
 }
 
 gpu_set_blendmode(bm_normal);

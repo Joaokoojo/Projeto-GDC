@@ -2,7 +2,6 @@
   "$GMObject":"",
   "%Name":"Obj_torch",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_axe",
-    "path":"sprites/Spr_axe/Spr_axe.yy",
+    "name":"Spr_torch",
+    "path":"sprites/Spr_torch/Spr_torch.yy",
   },
   "spriteMaskId":null,
   "visible":true,

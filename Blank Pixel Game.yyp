@@ -24,6 +24,7 @@
   "name":"Blank Pixel Game",
   "resources":[
     {"id":{"name":"fn_pixel","path":"fonts/fn_pixel/fn_pixel.yy",},},
+    {"id":{"name":"Obj_axe","path":"objects/Obj_axe/Obj_axe.yy",},},
     {"id":{"name":"Obj_button_start","path":"objects/Obj_button_start/Obj_button_start.yy",},},
     {"id":{"name":"Obj_button","path":"objects/Obj_button/Obj_button.yy",},},
     {"id":{"name":"Obj_end_button","path":"objects/Obj_end_button/Obj_end_button.yy",},},
@@ -49,7 +50,7 @@
     {"id":{"name":"Spr_solid","path":"sprites/Spr_solid/Spr_solid.yy",},},
     {"id":{"name":"Spr_spike","path":"sprites/Spr_spike/Spr_spike.yy",},},
     {"id":{"name":"Spr_star","path":"sprites/Spr_star/Spr_star.yy",},},
-    {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
+    {"id":{"name":"Spr_torch","path":"sprites/Spr_torch/Spr_torch.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
