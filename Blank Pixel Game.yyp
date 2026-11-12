@@ -34,6 +34,7 @@
     {"id":{"name":"Obj_spike","path":"objects/Obj_spike/Obj_spike.yy",},},
     {"id":{"name":"Obj_star","path":"objects/Obj_star/Obj_star.yy",},},
     {"id":{"name":"Obj_torch","path":"objects/Obj_torch/Obj_torch.yy",},},
+    {"id":{"name":"Obj_tutorial","path":"objects/Obj_tutorial/Obj_tutorial.yy",},},
     {"id":{"name":"rm_death","path":"rooms/rm_death/rm_death.yy",},},
     {"id":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
     {"id":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},},
